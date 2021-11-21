@@ -1,26 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/purple_500">
+    android:background="@color/white">
 
-
-    <Switch
-        android:id="@+id/switch1"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nem" />
+        android:text="Baby"
+        android:fontFamily="@font/ephesis"
+        android:textSize="60dp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        />
 
-    <com.google.android.material.chip.Chip
-        android:id="@+id/chip4"
+    <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/silver"
+        app:cardElevation="10dp">
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="match_parent"
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginStart="40dp"
+            android:textOn="fiú"
+            android:textOff="lány"
+            android:showText="true"
+            android:textColor="@color/black"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addNewBabyButton"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ToggleButton" />
-</LinearLayout>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="10dp"
+        android:src="@drawable/ic_baseline_add_24"
+        app:backgroundTint="@color/silver" />
+
+</RelativeLayout>
