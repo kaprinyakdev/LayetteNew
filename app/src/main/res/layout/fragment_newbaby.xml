@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/newbaby_image_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/newbaby_image"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/ic_launcher_foreground" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/newbaby_nametext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Name"
+        android:layout_below="@id/newbaby_image_container"/>
+
+    <EditText
+        android:id="@+id/newbaby_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@id/newbaby_nametext"/>
+
+    <TextView
+        android:id="@+id/newbaby_gendertext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Gender"
+        android:layout_below="@id/newbaby_name"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_below="@id/newbaby_gendertext">
+
+        <com.llollox.androidtoggleswitch.widgets.ToggleSwitch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:textToggleLeft="Lány"
+            app:textToggleRight="Fiú"
+            app:checkedTextColor="@color/black"
+            app:uncheckedTextColor="@color/black"
+            app:uncheckedBackgroundColor="@color/silver"
+            app:borderWidth="1dp"
+            app:toggleMargin="10dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginTop="30dp"
+            android:drawableLeft="@drawable/ic_baseline_person_add_24_white"
+            android:text="Save"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
