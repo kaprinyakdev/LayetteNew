@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">LayetteNew</string>
+    <string name="register_header">Regisztráció</string>
+    <string name="login_header">Bejelentkezés</string>
+    <string name="email">E-mail</string>
+    <string name="password">Jelszó</string>
+    <string name="forgot_password">Elfelejtette a jelszavát?</string>
+    <string name="register">Nincs még felhasználói fiókja? Regisztráció</string>
+
+
+    <string name="signup_login_hint">Already have an account? Sign In</string>
 </resources>

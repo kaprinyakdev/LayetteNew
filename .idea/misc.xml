@@ -11,10 +11,18 @@
         <entry key="..\:/Android/2021/LayetteNew/app/src/main/res/layout/fragment_newbaby.xml" value="0.3435897435897436" />
         <entry key="..\:/Android/2021/LayetteNew/app/src/main/res/layout/new_baby_data.xml" value="0.1" />
         <entry key="..\:/Android/2021/LayetteNew/app/src/main/res/layout/splashscreen.xml" value="0.34479166666666666" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/drawable/gradient.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/drawable/gradient2.xml" value="0.21875" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/drawable/ic_login_bk.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/drawable/login_shape_bk.xml" value="0.37864583333333335" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/layout/baby_add.xml" value="0.22" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/layout/layout_login.xml" value="0.3625" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/layout/layout_register.xml" value="0.3625" />
+        <entry key="..\:/Android/2022/LayetteNew/app/src/main/res/layout/login.xml" value="0.33" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
