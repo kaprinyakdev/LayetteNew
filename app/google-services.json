@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "671329477297",
+    "project_id": "layette-30081",
+    "storage_bucket": "layette-30081.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671329477297:android:955c4b28302ba362b6b890",
+        "android_client_info": {
+          "package_name": "com.example.layettenew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671329477297-vqtmqvkeb6o2anore05gsgnd26iln7h6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.layettenew",
+            "certificate_hash": "f5f5951f7f692c0fca312df69d86b27b49a7b725"
+          }
+        },
+        {
+          "client_id": "671329477297-o87u7bkndedtt4ovjjiiv3nk5be0grbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-s1lSSujHy_Y-4SWyhpS3QlF6ADW4DOQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671329477297-o87u7bkndedtt4ovjjiiv3nk5be0grbp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
