@@ -2,7 +2,7 @@
     <string name="app_name">LayetteNew</string>
     <string name="register_header">Regisztráció</string>
     <string name="login_header">Bejelentkezés</string>
-    <string name="email">E-mail</string>
+    <string name="email">E-mail cím</string>
     <string name="password">Jelszó</string>
     <string name="forgot_password">Elfelejtette a jelszavát?</string>
     <string name="register">Nincs még felhasználói fiókja? Regisztráció</string>

@@ -22,28 +22,17 @@
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/parent"
-            android:layout_marginTop="@dimen/signup_text_margin_top">
-            <EditText
-                style="@style/modifiedEditText"
-                android:inputType="text"
-                android:maxLines="1"
-                android:hint="Name"/>
-        </com.google.android.material.textfield.TextInputLayout>
+            android:layout_marginTop="@dimen/signup_text_margin_top"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top"/>
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/parent"
             android:layout_marginTop="@dimen/signup_text_margin_top">
             <EditText
-                style="@style/modifiedEditText"
-                android:inputType="text"
-                android:maxLines="1"
-                android:hint="Mobile Number"/>
-        </com.google.android.material.textfield.TextInputLayout>
-
-        <com.google.android.material.textfield.TextInputLayout
-            style="@style/parent"
-            android:layout_marginTop="@dimen/signup_text_margin_top">
-            <EditText
+                android:id="@+id/register_email"
                 style="@style/modifiedEditText"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
@@ -54,6 +43,7 @@
             style="@style/parent"
             android:layout_marginTop="@dimen/signup_text_margin_top">
             <EditText
+                android:id="@+id/register_pwd"
                 style="@style/modifiedEditText"
                 android:hint="@string/password"
                 android:maxLines="1"
@@ -62,6 +52,7 @@
 
         <Button
             style="@style/loginButton"
+            android:id="@+id/registration"
             android:layout_gravity="center"
             android:text="Register" />
 

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     style="@style/loginParent">
+
     <ScrollView
         style="@style/parent">
 
@@ -28,7 +28,6 @@
                         android:contentDescription="login background" />
 
                 </LinearLayout>
-
             </LinearLayout>
 
             <LinearLayout
@@ -40,7 +39,6 @@
                 android:layout_marginRight="30dp"
                 android:layout_marginLeft="30dp">
 
-
                 <TextView
                     style="@style/headerText"
                     android:layout_gravity="center"
@@ -49,12 +47,9 @@
                     android:textSize="30sp"
                     android:fontFamily="@font/montserrat"/>
                 <include
-                    layout="@layout/layout_login"/>
+                    layout="@layout/fragment_login"/>
 
             </LinearLayout>
-
            </RelativeLayout>
-
     </ScrollView>
-
 </RelativeLayout>
